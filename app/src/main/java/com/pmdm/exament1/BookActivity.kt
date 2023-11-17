@@ -26,6 +26,7 @@ class BookActivity : AppCompatActivity() {
     private lateinit var btnRight: FloatingActionButton
     private lateinit var tvTime: TextView
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_book)
@@ -78,14 +79,16 @@ class BookActivity : AppCompatActivity() {
                 intentGA.putExtra("EXTRA_TIME", timeT)
                 startActivity(intentGA)
             }
-            btnRight.setOnClickListener() {
-                timeT = tvTime.toString()
-                setTimeRight()
-            }
-            btnLeft.setOnClickListener() {
-                timeT = tvTime.toString()
-                setTimeLeft()
-            }
+
+        }
+
+        btnRight.setOnClickListener() {
+            timeT = tvTime.text.toString()
+            setTimeRight()
+        }
+        btnLeft.setOnClickListener() {
+            timeT = tvTime.text.toString()
+            setTimeLeft()
         }
     }
 
