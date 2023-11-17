@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExamenT1</string>
+    <string name="restaurantName">U Polek</string>
+    <string name="twoSeats">2 asientos</string>
+    <string name="fourSeats">4 asientos</string>
+    <string name="eightSeats">8 asientos</string>
+    <string name="insertName">Introduce tu nombre</string>
+    <string name="name...">Name...</string>
+    <string name="time">20:00</string>
+    <string name="showBook">MESA RESERVADA PARA 4 PERSONAS A NOMBRE DE DAVID, A LAS 20:00</string>
+    <string name="eight">20:00</string>
+    <string name="nine">21:00</string>
+    <string name="ten">22:00</string>
+</resources>
